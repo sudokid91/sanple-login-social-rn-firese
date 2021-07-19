@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useState} from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -17,6 +17,7 @@ import {
   useColorScheme,
   View,
   Platform,
+  Button,
 } from 'react-native';
 
 import {
@@ -37,13 +38,23 @@ import {
   LoginManager,
   Profile,
 } from 'react-native-fbsdk-next';
+import {
+  GoogleSignin,
+  GoogleSigninButton,
+  statusCodes,
+} from '@react-native-google-signin/google-signin';
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
+  const [userInfo, setUSerInfo] = useState(null)
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  GoogleSignin.configure({
+    webClientId: '179172327382-vk8asoie2f3g23tp6juj6m9385r3cpeu.apps.googleusercontent.com'
+  });
 
   const onAppleButtonPress = async () => {
     // Start the sign-in request
@@ -93,19 +104,6 @@ const App: () => Node = () => {
       <View>
         <LoginButton
           onLoginFinished={async (error, result) => {
-            const currentProfile = Profile.getCurrentProfile().then(
-              currentProfile => {
-                if (currentProfile) {
-                  console.log(JSON.stringify(currentProfile))
-                  console.log(
-                    'The current logged user is: ' +
-                      currentProfile.name +
-                      '. His profile id is: ' +
-                      currentProfile.userID,
-                  );
-                }
-              },
-            );
             if (error) {
               console.log('login has error: ' + result.error);
             } else if (result.isCancelled) {
@@ -130,6 +128,41 @@ const App: () => Node = () => {
     );
   };
 
+  const onGoogleButtonPress = async () => {
+    // Get the users ID token
+    if (userInfo) {
+        try {
+          await GoogleSignin.revokeAccess();
+          await GoogleSignin.signOut();
+          setUSerInfo(null) // Remember to remove the user from your app's state as well
+        } catch (error) {
+          console.error(error);
+        }
+    } else {
+      const userInfo = await GoogleSignin.signIn();
+      console.log(JSON.stringify(userInfo))
+      setUSerInfo(userInfo)
+      // Create a Google credential with the token
+      const googleCredential = auth.GoogleAuthProvider.credential(userInfo?.idToken);
+
+      // Sign-in the user with the credential
+      return auth().signInWithCredential(googleCredential);
+    }
+
+  }
+
+  const LoginGoogle = () => {
+    return (
+        <View>
+          <Button
+              title={userInfo ? "Logout" : "Login"}
+              onPress={() => onGoogleButtonPress().then(() => console.log(userInfo ? 'LogOuted in with Google!' :'Signed in with Google!'))}
+          />
+        </View>
+    )
+
+  }
+
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
@@ -143,6 +176,7 @@ const App: () => Node = () => {
           }}>
           <AppleSignIn />
           <LoginFb />
+          <LoginGoogle/>
         </View>
       </ScrollView>
     </SafeAreaView>

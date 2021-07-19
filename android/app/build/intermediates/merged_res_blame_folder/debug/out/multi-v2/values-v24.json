@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bap/Desktop/RN-Project/samplelogin/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/bap/.gradle/caches/transforms-2/files-2.1/5caf8f4c0105e3b674684cd12969016e/media-1.0.0/res/values-v24/values-v24.xml",

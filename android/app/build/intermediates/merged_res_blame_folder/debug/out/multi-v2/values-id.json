@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bap/Desktop/RN-Project/samplelogin/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
             "map": [
                 {
                     "source": "/Users/bap/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-8.2.0/res/values-id/values-id.xml",

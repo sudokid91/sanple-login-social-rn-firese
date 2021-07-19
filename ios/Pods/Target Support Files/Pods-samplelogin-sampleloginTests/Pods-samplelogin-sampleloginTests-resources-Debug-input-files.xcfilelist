@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-samplelogin-sampleloginTests/Pods-samplelogin-sampleloginTests-resources.sh
+${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle

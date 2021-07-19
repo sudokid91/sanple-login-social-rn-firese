@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bap/Desktop/RN-Project/samplelogin/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/res/values-zh-rTW/values.xml",

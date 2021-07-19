@@ -177,6 +177,7 @@
     <orderEntry type="module" module-name="samplelogin.invertase_react-native-apple-authentication" />
     <orderEntry type="module" module-name="samplelogin.react-native-firebase_auth" />
     <orderEntry type="module" module-name="samplelogin.react-native-firebase_app" />
+    <orderEntry type="module" module-name="samplelogin.react-native-google-signin_google-signin" />
     <orderEntry type="module" module-name="samplelogin.react-native-fbsdk-next" />
   </component>
 </module>

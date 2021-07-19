@@ -30,7 +30,7 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [FBSDKApplicationDelegate initializeSDK:launchOptions]; 
+//  [FBSDKApplicationDelegate initializeSDK:launchOptions];
   if ([FIRApp defaultApp] == nil) {
       [FIRApp configure];
     }

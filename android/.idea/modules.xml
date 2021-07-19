@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/939456789/samplelogin.react-native-fbsdk-next.iml" filepath="$PROJECT_DIR$/.idea/modules/939456789/samplelogin.react-native-fbsdk-next.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-480514730/samplelogin.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-480514730/samplelogin.react-native-firebase_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536987859/samplelogin.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1536987859/samplelogin.react-native-firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-945533007/samplelogin.react-native-google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-945533007/samplelogin.react-native-google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-374290114/samplelogin.react-native-google-signin_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-374290114/samplelogin.react-native-google-signin_google-signin.iml" />
     </modules>
   </component>
 </project>

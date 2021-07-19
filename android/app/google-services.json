@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "179172327382-mqi4c6a44vlo99pded2bi3u71ju95klh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samplelogin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
           "client_id": "179172327382-vk8asoie2f3g23tp6juj6m9385r3cpeu.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -37,6 +45,13 @@
             {
               "client_id": "179172327382-vk8asoie2f3g23tp6juj6m9385r3cpeu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "179172327382-vh4l1fhh78f38bsm6ppfnscc29kl0a0d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.samplelogin"
+              }
             }
           ]
         }
