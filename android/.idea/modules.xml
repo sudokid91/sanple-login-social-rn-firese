@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samplelogin.iml" filepath="$PROJECT_DIR$/.idea/modules/samplelogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/samplelogin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/samplelogin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-527298922/samplelogin.invertase_react-native-apple-authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/-527298922/samplelogin.invertase_react-native-apple-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/939456789/samplelogin.react-native-fbsdk-next.iml" filepath="$PROJECT_DIR$/.idea/modules/939456789/samplelogin.react-native-fbsdk-next.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-480514730/samplelogin.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-480514730/samplelogin.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536987859/samplelogin.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1536987859/samplelogin.react-native-firebase_auth.iml" />
+    </modules>
+  </component>
+</project>
