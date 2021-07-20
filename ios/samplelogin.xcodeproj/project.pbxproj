@@ -16,6 +16,7 @@
 		3D52A71426A533F30046C84B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52A71326A533F30046C84B /* File.swift */; };
 		3D52A88726A55C8C0046C84B /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D52A88626A55C8C0046C84B /* libRNGoogleSignin.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9F659D3AF4A02F40BE92CEA1 /* libPods-samplelogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3491C9850B9FA1BAC820B2C6 /* libPods-samplelogin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D52A88726A55C8C0046C84B /* libRNGoogleSignin.a in Frameworks */,
+				9F659D3AF4A02F40BE92CEA1 /* libPods-samplelogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

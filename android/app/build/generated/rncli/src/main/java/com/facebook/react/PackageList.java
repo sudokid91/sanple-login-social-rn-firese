@@ -17,6 +17,8 @@ import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+// @react-native-firebase/messaging
+import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 // @react-native-google-signin/google-signin
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 // react-native-fbsdk-next
@@ -69,6 +71,7 @@ public class PackageList {
       new AppleAuthenticationAndroidPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
+      new ReactNativeFirebaseMessagingPackage(),
       new RNGoogleSigninPackage(),
       new FBSDKPackage()
     ));

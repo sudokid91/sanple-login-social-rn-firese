@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -44,6 +44,8 @@ import {
   statusCodes,
 } from '@react-native-google-signin/google-signin';
 
+import messaging from '@react-native-firebase/messaging';
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const [userInfo, setUSerInfo] = useState(null)
@@ -55,6 +57,39 @@ const App: () => Node = () => {
   GoogleSignin.configure({
     webClientId: '179172327382-vk8asoie2f3g23tp6juj6m9385r3cpeu.apps.googleusercontent.com'
   });
+
+  const  listerNotifications = message => {
+      console.log(`listerNotifications: ${JSON.stringify(message)}`)
+  }
+
+  useEffect(() => {
+      // Assume a message-notification contains a "type" property in the data payload of the screen to open
+
+      messaging().subscribeToTopic("hoangnn").then(data => console.log(`topic hoangnnn: ${JSON.stringify(data)}`)).catch()
+
+    messaging().onNotificationOpenedApp(remoteMessage => {
+      console.log(
+          'Notification caused app to open from background state:',
+          remoteMessage.notification,
+      );
+      // navigation.navigate(remoteMessage.data.type);
+    });
+
+    // Check whether an initial notification is available
+    messaging()
+        .getInitialNotification()
+        .then(remoteMessage => {
+          if (remoteMessage) {
+            console.log(
+                'Notification caused app to open from quit state:',
+                remoteMessage.notification,
+            );
+            // setInitialRoute(remoteMessage.data.type); // e.g. "Settings"
+          }
+          // setLoading(false);
+        });
+  }, []);
+
 
   const onAppleButtonPress = async () => {
     // Start the sign-in request

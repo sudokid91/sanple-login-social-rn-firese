@@ -20,31 +20,33 @@
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
 14-->[:react-native-firebase_auth] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
 14-->[:react-native-firebase_auth] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 15-->[:react-native-firebase_auth] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
 15-->[:react-native-firebase_auth] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
-16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-16-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
-16-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
-17
-18    <application
-18-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:6:5-38:19
-19        android:name="com.samplelogin.MainApplication"
-19-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:7:7-38
-20        android:allowBackup="false"
-20-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:11:7-34
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.3.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/52ce423523caf71efb291c36028c21d3/core-1.3.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:9:7-41
-24        android:label="@string/app_name"
-24-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:8:7-39
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:10:7-52
-26        android:supportsRtl="true"
-26-->[com.facebook.android:facebook-android-sdk:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/3963626d9af565f850d8051bbe721499/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
-27        android:testOnly="true"
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:6:5-38:19
+20        android:name="com.samplelogin.MainApplication"
+20-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/52ce423523caf71efb291c36028c21d3/core-1.3.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:9:7-41
+25        android:label="@string/app_name"
+25-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:8:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:10:7-52
+27        android:supportsRtl="true"
+27-->[com.facebook.android:facebook-android-sdk:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/3963626d9af565f850d8051bbe721499/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
 28        android:theme="@style/AppTheme"
 28-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:12:7-38
 29        android:usesCleartextTraffic="true" >
@@ -136,237 +138,367 @@
 72-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:35:23-70
 73            </intent-filter>
 74        </activity>
-75        <activity
-75-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
-76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-76-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
-77            android:excludeFromRecents="true"
-77-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
-78            android:exported="true"
-78-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
-79            android:launchMode="singleTask"
-79-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
-80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-80-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
-81            <intent-filter>
-81-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
-82                <action android:name="android.intent.action.VIEW" />
-82-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:17-69
-82-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:25-66
-83
-84                <category android:name="android.intent.category.DEFAULT" />
-84-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
-84-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
-85                <category android:name="android.intent.category.BROWSABLE" />
-85-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:17-78
-85-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:27-75
-86
-87                <data
-87-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:17-75
-88                    android:host="firebase.auth"
-89                    android:path="/"
-90                    android:scheme="genericidp" />
-90-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:23-72
+75
+76        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+76-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+76-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+77        <service
+77-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+78            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+78-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+79            android:exported="false" >
+79-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+80            <intent-filter>
+80-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+81                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+81-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+81-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+82            </intent-filter>
+83        </service>
+84
+85        <receiver
+85-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+86            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+86-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+87            android:exported="true"
+87-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+88            android:permission="com.google.android.c2dm.permission.SEND" >
+88-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+89            <intent-filter>
+89-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+90-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+90-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 91            </intent-filter>
-92        </activity>
-93        <activity
-93-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
-94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-94-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
-95            android:excludeFromRecents="true"
-95-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
-96            android:exported="true"
-96-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
-97            android:launchMode="singleTask"
-97-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
-98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-98-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
-99            <intent-filter>
-99-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
-100                <action android:name="android.intent.action.VIEW" />
-100-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:17-69
-100-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:25-66
-101
-102                <category android:name="android.intent.category.DEFAULT" />
-102-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
-102-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
-103                <category android:name="android.intent.category.BROWSABLE" />
-103-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:17-78
-103-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:27-75
-104
-105                <data
-105-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:17-75
-106                    android:host="firebase.auth"
-107                    android:path="/"
-108                    android:scheme="recaptcha" />
-108-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:23-72
-109            </intent-filter>
-110        </activity>
-111
-112        <service
-112-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
-113            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-113-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
-114            android:enabled="true"
-114-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
-115            android:exported="false" >
-115-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
-116            <intent-filter>
-116-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
-117                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-117-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-117-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
-118
-119                <category android:name="android.intent.category.DEFAULT" />
-119-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
-119-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
+92        </receiver>
+93
+94        <meta-data
+94-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+95            android:name="firebase_messaging_auto_init_enabled"
+95-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+96            android:value="true" />
+96-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+97        <meta-data
+97-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+98            android:name="com.google.firebase.messaging.default_notification_channel_id"
+98-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+99            android:value="" />
+99-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+100        <meta-data
+100-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+101            android:name="com.google.firebase.messaging.default_notification_color"
+101-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+102            android:resource="@color/white" />
+102-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+103
+104        <activity
+104-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+105            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+106            android:excludeFromRecents="true"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+107            android:exported="true"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+108            android:launchMode="singleTask"
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+109-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+110            <intent-filter>
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+111                <action android:name="android.intent.action.VIEW" />
+111-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:17-69
+111-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:25-66
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
+113-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
+114                <category android:name="android.intent.category.BROWSABLE" />
+114-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:17-78
+114-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:27-75
+115
+116                <data
+116-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:17-75
+117                    android:host="firebase.auth"
+118                    android:path="/"
+119                    android:scheme="genericidp" />
+119-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:23-72
 120            </intent-filter>
-121        </service>
-122        <service
-122-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
-123            android:name="com.google.firebase.components.ComponentDiscoveryService"
-123-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
-124            android:directBootAware="true"
-124-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-125            android:exported="false" >
-125-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
-126            <meta-data
-126-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-127                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-127-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
-128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
-129            <meta-data
-129-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
-130                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-130-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
-131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
-132            <meta-data
-132-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
-133                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-133-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
-134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
-135        </service>
-136
-137        <activity android:name="com.facebook.CustomTabMainActivity" />
-137-->[com.facebook.android:facebook-common:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:9-71
-137-->[com.facebook.android:facebook-common:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:19-68
-138
-139        <provider
-139-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-140            android:name="com.google.firebase.provider.FirebaseInitProvider"
-140-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-141            android:authorities="com.samplelogin.firebaseinitprovider"
-141-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-142            android:directBootAware="true"
-142-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-143            android:exported="false"
-143-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-144            android:initOrder="100" />
-144-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-145        <!--
-146         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-147         with the application context. This config is merged in with the host app's manifest,
-148         but there can only be one provider with the same authority activated at any given
-149         point; so if the end user has two or more different apps that use Facebook SDK, only the
-150         first one will be able to use the provider. To work around this problem, we use the
-151         following placeholder in the authority to identify each host application as if it was
-152         a completely different provider.
-153        -->
-154        <provider
-154-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:39:9-42:40
-155            android:name="com.facebook.internal.FacebookInitProvider"
-155-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:40:13-70
-156            android:authorities="com.samplelogin.FacebookInitProvider"
-156-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:41:13-72
-157            android:exported="false" />
-157-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:42:13-37
-158
-159        <receiver
-159-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:44:9-50:20
-160            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-160-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:45:13-86
-161            android:exported="false" >
-161-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:46:13-37
-162            <intent-filter>
-162-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:47:13-49:29
-163                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-163-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:17-95
-163-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:25-92
-164            </intent-filter>
-165        </receiver>
-166
-167        <activity
-167-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
-168            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-168-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
-169            android:excludeFromRecents="true"
-169-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
-170            android:exported="false"
-170-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
-171            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-171-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
-172        <!--
-173            Service handling Google Sign-In user revocation. For apps that do not integrate with
-174            Google Sign-In, this service will never be started.
-175        -->
-176        <service
-176-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
-177            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-177-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
-178            android:exported="true"
-178-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
-179            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-179-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
-180            android:visibleToInstantApps="true" />
-180-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
-181
-182        <activity
-182-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-183-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-184            android:exported="false"
-184-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-185-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-186
-187        <receiver
-187-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
-188            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-188-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
-189            android:enabled="true"
-189-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
-190            android:exported="false" >
-190-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
-191        </receiver>
-192
-193        <service
-193-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
-194            android:name="com.google.android.gms.measurement.AppMeasurementService"
-194-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
-195            android:enabled="true"
-195-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
-196            android:exported="false" />
-196-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
-197        <service
-197-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
-198            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-198-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
-199            android:enabled="true"
-199-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
-200            android:exported="false"
-200-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
-201            android:permission="android.permission.BIND_JOB_SERVICE" />
-201-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
-202
-203        <meta-data
-203-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
-204            android:name="com.google.android.gms.version"
-204-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
-205            android:value="@integer/google_play_services_version" />
-205-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
-206    </application>
-207
-208</manifest>
+121        </activity>
+122        <activity
+122-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+123            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+124            android:excludeFromRecents="true"
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+125            android:exported="true"
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+126            android:launchMode="singleTask"
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+128            <intent-filter>
+128-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+129                <action android:name="android.intent.action.VIEW" />
+129-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:17-69
+129-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:20:25-66
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
+131-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
+132                <category android:name="android.intent.category.BROWSABLE" />
+132-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:17-78
+132-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:22:27-75
+133
+134                <data
+134-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:17-75
+135                    android:host="firebase.auth"
+136                    android:path="/"
+137                    android:scheme="recaptcha" />
+137-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:23:23-72
+138            </intent-filter>
+139        </activity>
+140
+141        <service
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+142            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+143            android:enabled="true"
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+144            android:exported="false" >
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+145            <intent-filter>
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+146                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:17-76
+148-->/Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/android/app/src/main/AndroidManifest.xml:21:27-73
+149            </intent-filter>
+150        </service>
+151        <service
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+152            android:name="com.google.firebase.components.ComponentDiscoveryService"
+152-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+155            <meta-data
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+156                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+159                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+159-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+164            <meta-data
+164-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+165                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+165-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+168                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+168-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-installations:17.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+170        </service>
+171
+172        <activity android:name="com.facebook.CustomTabMainActivity" />
+172-->[com.facebook.android:facebook-common:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:9-71
+172-->[com.facebook.android:facebook-common:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:19-68
+173
+174        <receiver
+174-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+175            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+175-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+176            android:exported="true"
+176-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+178            <intent-filter>
+178-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+179-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+180            </intent-filter>
+181        </receiver>
+182        <!--
+183             FirebaseMessagingService performs security checks at runtime,
+184             but set to not exported to explicitly avoid allowing another app to call it.
+185        -->
+186        <service
+186-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+187            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+187-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+189            android:exported="false" >
+189-->[com.google.firebase:firebase-messaging:22.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+190            <intent-filter android:priority="-500" >
+190-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+191                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+191-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+191-->[:react-native-firebase_messaging] /Users/bap/Desktop/RN-Project/sanple-login-social-rn-firese/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+192            </intent-filter>
+193        </service>
+194        <service
+194-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+195            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+195-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+196            android:exported="false" >
+196-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+197            <meta-data
+197-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+198                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+198-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+199                android:value="cct" />
+199-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+200        </service>
+201
+202        <provider
+202-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+203            android:name="com.google.firebase.provider.FirebaseInitProvider"
+203-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+204            android:authorities="com.samplelogin.firebaseinitprovider"
+204-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+206            android:exported="false"
+206-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+207            android:initOrder="100" />
+207-->[com.google.firebase:firebase-common:20.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+208
+209        <service
+209-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+210            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+210-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+211            android:exported="false"
+211-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+212            android:permission="android.permission.BIND_JOB_SERVICE" >
+212-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+213        </service>
+214
+215        <receiver
+215-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+216            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+216-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+217            android:exported="false" />
+217-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+218        <!--
+219         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+220         with the application context. This config is merged in with the host app's manifest,
+221         but there can only be one provider with the same authority activated at any given
+222         point; so if the end user has two or more different apps that use Facebook SDK, only the
+223         first one will be able to use the provider. To work around this problem, we use the
+224         following placeholder in the authority to identify each host application as if it was
+225         a completely different provider.
+226        -->
+227        <provider
+227-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:39:9-42:40
+228            android:name="com.facebook.internal.FacebookInitProvider"
+228-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:40:13-70
+229            android:authorities="com.samplelogin.FacebookInitProvider"
+229-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:41:13-72
+230            android:exported="false" />
+230-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:42:13-37
+231
+232        <receiver
+232-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:44:9-50:20
+233            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+233-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:45:13-86
+234            android:exported="false" >
+234-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:46:13-37
+235            <intent-filter>
+235-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:47:13-49:29
+236                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+236-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:17-95
+236-->[com.facebook.android:facebook-core:9.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:25-92
+237            </intent-filter>
+238        </receiver>
+239
+240        <activity
+240-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+241            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+241-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+242            android:excludeFromRecents="true"
+242-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+243            android:exported="false"
+243-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+244            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+244-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+245        <!--
+246            Service handling Google Sign-In user revocation. For apps that do not integrate with
+247            Google Sign-In, this service will never be started.
+248        -->
+249        <service
+249-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+250            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+250-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+251            android:exported="true"
+251-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+252            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+252-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+253            android:visibleToInstantApps="true" />
+253-->[com.google.android.gms:play-services-auth:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+254
+255        <activity
+255-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+256            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+256-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+258-->[com.google.android.gms:play-services-base:17.1.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+259
+260        <receiver
+260-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+261            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+261-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+262            android:enabled="true"
+262-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+263            android:exported="false" >
+263-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+264        </receiver>
+265
+266        <service
+266-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+267            android:name="com.google.android.gms.measurement.AppMeasurementService"
+267-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+269            android:exported="false" />
+269-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+270        <service
+270-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+271            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+271-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+272            android:enabled="true"
+272-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" />
+274-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bap/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+275
+276        <meta-data
+276-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+277            android:name="com.google.android.gms.version"
+277-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+278            android:value="@integer/google_play_services_version" />
+278-->[com.google.android.gms:play-services-basement:17.1.1] /Users/bap/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+279    </application>
+280
+281</manifest>
